@@ -35,7 +35,9 @@ Client Machines
   - Created VM checkpoints
   - Exported VM for full backup
 
-📸 Screenshots available in /screenshots
+### VM Installation & Server Configuration
+
+![Server Properties](screenshots/02-local-server-properties.png)
 
 2️⃣ Network Configuration & NAT
   - Configured Ethernet adapter
@@ -45,7 +47,11 @@ Client Machines
   - Validated connectivity using ping between:
       - Server ↔ Windows 10
       - Server ↔ Windows 11
-    
+
+### NAT Configuration
+
+![NAT Configuration](screenshots/04-nat-config.png)
+
 3️⃣ Windows Updates & Patch Management
   - Checked update history
   - Installed security patches
