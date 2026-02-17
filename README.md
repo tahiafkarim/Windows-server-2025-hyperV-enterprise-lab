@@ -10,7 +10,8 @@ The lab simulates a real-world corporate environment, including:
   - NAT & Networking
   - SQL Server deployment
   - Backup & Recovery
-  - Performance Monitoring\
+  - Performance Monitoring
+
 This project was built as part of my TAFE NSW Certificate IV in IT and reflects practical system administration skills.
 
 🖥️ Environment Architecture\
@@ -18,7 +19,8 @@ Virtualisation Platform
   - Hyper-V Manager
   - Generation 2 VM
   - 8200 MB RAM
-  - Windows Server 2025 Datacenter (Evaluation)\
+  - Windows Server 2025 Datacenter (Evaluation)
+
 Client Machines
   - Windows 10 Client
   - Windows 11 Client
@@ -32,7 +34,9 @@ Client Machines
   - Configured server properties
   - Created VM checkpoints
   - Exported VM for full backup
-📸 Screenshots available in /screenshots\
+
+📸 Screenshots available in /screenshots
+
 2️⃣ Network Configuration & NAT
   - Configured Ethernet adapter
   - Assigned IP configuration
@@ -40,11 +44,13 @@ Client Machines
   - Verified internet connectivity using IANA test and speed test.
   - Validated connectivity using ping between:
       - Server ↔ Windows 10
-      - Server ↔ Windows 11\
+      - Server ↔ Windows 11
+    
 3️⃣ Windows Updates & Patch Management
   - Checked update history
   - Installed security patches
-  - Verified system security status\
+  - Verified system security status
+
 4️⃣ SQL Server Deployment
   - Installed SQL Server 2022 Express Edition
   - Configured SQL Management Studio
@@ -53,36 +59,37 @@ Client Machines
 👥 Active Directory Implementation\
 Organizational Units Created
  - GelosIT
- - GelosAdmin\
+ - GelosAdmin
+   
 User & Group Management
  - Created user accounts
  - Assigned users to appropriate security groups
  - Applied role-based access control (RBAC)
 
-📁 File Services & Network Shares\
+📁 File Services & Network Shares
   - Created a dedicated data drive to configure shared folders
   - Applied NTFS permissions
   - Implemented group-based read/write access control
 
-🌐 DFS & Replication\
+🌐 DFS & Replication
   - Created DFS Namespace
   - Configured DFS Replication
   - Implemented quota management
   - Validated file replication functionality
 
-📊 Monitoring & Performance\
+📊 Monitoring & Performance
   - Used Performance Monitor to observe:
   - CPU usage
   - Memory utilization
   - Network throughput
 
-💾 Backup & Recovery\
+💾 Backup & Recovery
   - Configured Windows Server Backup
   - Performed backup
   - Successfully restored the system
   - Exported full VM as recovery image
 
-📌 Skills Demonstrated\
+📌 Skills Demonstrated
   ✔ Hyper-V Virtualisation
   ✔ Windows Server Administration
   ✔ Active Directory & OU Design
@@ -97,7 +104,7 @@ User & Group Management
 📸 Screenshots\
 All configuration proof and system validation screenshots are available in the /screenshots folder.
 
-🔄 Future Improvements\
+🔄 Future Improvements
   - Implement Group Policy Objects (GPO)
   - Configure WSUS
   - Implement DHCP & DNS roles
