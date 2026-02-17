@@ -1,6 +1,6 @@
 Windows Server 2025 Enterprise Infrastructure Lab (Hyper-V)
 
-Project Overview
+Project Overview \
 This project demonstrates the design and implementation of a small enterprise IT infrastructure using Hyper-V and Windows Server 2025 Datacenter (Evaluation).
 The lab simulates a real-world corporate environment, including:
   - Virtualisation
