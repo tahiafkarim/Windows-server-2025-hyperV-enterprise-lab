@@ -26,7 +26,7 @@ Client Machines
   - Windows 11 Client
 
 🔧 Infrastructure Implementation\
-1️⃣ Virtual Machine Setup
+## 1️⃣ Virtual Machine Setup
   - Installed Hyper-V
   - Created Generation 2 VM
   - Allocated 8200MB RAM
@@ -39,7 +39,7 @@ Client Machines
 
 ![Server Properties](screenshots/02-local-server-properties.png)
 
-2️⃣ Network Configuration & NAT
+## 2️⃣ Network Configuration & NAT
   - Configured Ethernet adapter
   - Assigned IP configuration
   - Configured NAT using Routing & Remote Access, allowing internal virtual machines to access external internet resources. 
@@ -52,15 +52,21 @@ Client Machines
 
 ![NAT Configuration](screenshots/04-nat-config.png)
 
-3️⃣ Windows Updates & Patch Management
+## 3️⃣ Windows Updates & Patch Management
   - Checked update history
   - Installed security patches
   - Verified system security status
 
-4️⃣ SQL Server Deployment
+### Windows Update & Patch History
+![Windows Updates](screenshots/06-windows-updates.png)
+
+## 4️⃣ SQL Server Deployment
   - Installed SQL Server 2022 Express Edition
   - Configured SQL Management Studio
   - Successfully connected from Windows 10 client to the server database instance
+
+### Remote SQL Connection from Windows 10 Client
+![SQL Client Connection](screenshots/09-sql-client-connection.png)
 
 👥 Active Directory Implementation\
 Organizational Units Created
@@ -83,17 +89,35 @@ User & Group Management
   - Implemented quota management
   - Validated file replication functionality
 
+### DFS Namespace Configuration
+![DFS Namespace](screenshots/10-dfs-namespace.png)
+
+### DFS Replication Setup
+![DFS Replication](screenshots/11-dfs-replication.png)
+
+### Quota Management Configuration
+![Quota Management](screenshots/12-quota-management.png)
+
 📊 Monitoring & Performance
   - Used Performance Monitor to observe:
   - CPU usage
   - Memory utilization
   - Network throughput
 
+### Performance Monitor Observation
+![Performance Monitor](screenshots/13-performance-monitor.png)
+
 💾 Backup & Recovery
   - Configured Windows Server Backup
   - Performed backup
   - Successfully restored the system
   - Exported full VM as recovery image
+
+### Windows Server Backup Configuration
+![Backup Configuration](screenshots/14-backup-config.png)
+
+### Backup Restoration Validation
+![Backup Restore](screenshots/15-backup-restore.png)
 
 📌 Skills Demonstrated
   ✔ Hyper-V Virtualisation
